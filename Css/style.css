@@ -1,0 +1,77 @@
+/*Imagens*/
+img{
+    display: block;
+    margin: 10px auto 30px auto;
+    width: 350px;
+}
+
+/* TABELA */
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 1100px;
+    background-color: rgb(255, 255, 255);
+
+    border: 2px solid red;
+    border-top: 3px solid red;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+}
+
+/* LINHAS */
+
+th,
+td{
+    border: 2px solid red;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* TOPO */
+
+.topo-esquerda{
+    background-color: #e7edf8;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 18px;
+}
+
+.topo-direita{
+    background-color: #eef4e2;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 18px;
+}
+
+/* CABEÇALHOS */
+
+.cabeçalho-1{
+    background-color: #c4d7f9;
+    font-size: 18px;
+    font-weight: bold;
+    height: 15px;
+}
+
+.cabeçalho-2{
+    background-color: #d5fa9f;
+    font-size: 18px;
+    font-weight: bold;
+    height: 15px;
+}
+
+/* EFEITO */
+
+.aluno:hover td{
+    background-color: #b3a7f6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* MÉDIA */
+
+.media{
+    font-weight: bold;
+    font-size: 20px;
+}
